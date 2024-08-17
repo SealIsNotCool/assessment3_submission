@@ -1,0 +1,344 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Assessment 3 </title>
+	
+	
+	<script>
+	// All functions for changing elements in task 4
+		function cat(){ 
+			var displayField = document.getElementById("display");
+			displayField.value = "User clicks Cat";
+			var displaySpan = document.getElementById("display2");
+			displaySpan.innerHTML = "Cat is clicked"
+			var image = document.getElementById("display3");
+			image.src = "cat.jpg";
+			image.height = 300;
+			image.width = 400;
+			var displaySpan = document.getElementById("display4");
+			displaySpan.innerHTML = "Source: https://www.britannica.com/animal/cat"
+		}
+		function dog(){ 
+			var displayField = document.getElementById("display");
+			displayField.value = "User clicks Dog";
+			var displaySpan = document.getElementById("display2");
+			displaySpan.innerHTML = "Dog is clicked"
+			var image = document.getElementById("display3");
+			image.height = 300;
+			image.width = 400;
+			image.src = "dog.jpg";
+			var displaySpan = document.getElementById("display4");
+			displaySpan.innerHTML = "Source: https://www.britannica.com/animal/dog"
+		}
+		function frog(){ 
+			var displayField = document.getElementById("display");
+			displayField.value = "User clicks Frog";
+			var displaySpan = document.getElementById("display2");
+			displaySpan.innerHTML = "Frog is clicked"
+			var image = document.getElementById("display3");
+			image.src = "frog.jpg";
+			image.height = 300;
+			image.width = 400;
+			var displaySpan = document.getElementById("display4");
+			displaySpan.innerHTML = "Source: https://www.britannica.com/animal/frog"
+		}
+    </script>
+	
+	
+	<style> 
+		<!-- Task 1 stylings -->
+		.preamble {
+			margin-top: 10px;
+			color: blue; 
+			text-align:center;
+			border-style:dashed;
+			border-color:red;
+			border-width:1px;
+			}
+		<!-- Task 2 stylings -->
+		#header {
+			background-color: navy;
+			color: white;
+			text-align: left;
+			}
+		.evenrow {
+			background-color:lightgrey;
+			}
+		.oddrow {
+			color:navy;
+			}
+		table.task1, th.task1, td.datatext {
+			border: 1px solid white;
+			border-collapse: collapse;
+			}
+		<!-- Task 3 stylings -->
+		#header2 {
+			background-color:lightyellow;
+			color:red;
+			text-align:middle;
+			font-size:25px
+			}
+		th.task2 {
+			border: 1px solid white;
+			border-collapse: collapse;
+			}
+		td.datatext2 {
+			border: 2px double black;
+			border-collapse: collapse;
+			}
+		
+	</style>
+	
+	
+</head>
+
+<body>
+	<!-- Task 1 -->
+    <h1 class="preamble"> 7131781 Harrison Cocks </h1>
+	<h2 class="preamble"> COMP804: Web Security </h1>
+	<h3 class="preamble"> Assignment 1, due at the end of Week 5 </h1>
+	
+	<br>
+	
+	<!-- Task 2 -->
+	<table class="task1" style="width:100%">
+		<tr id="header">
+			<th class="task1" style="width:50%">Activity</th>
+			<th class="task1" style="width:50%">Date</th>
+		<tr class="oddrow">
+			<td class="datatext">First day to enrol for re-enrolling (continuing students)</td>
+			<td class="datatext">20 Nov 2022</td>
+		<tr class="evenrow">
+			<td class="datatext">Orientation</td>
+			<td class="datatext">18 Jul 2023</td>
+		<tr class="oddrow">
+			<td class="datatext">Lectures Commence (weeks 1-9)</td>
+			<td class="datatext">24 Jul - 22 Sep 2023</td>
+		<tr class="evenrow">
+			<td class="datatext">Last day to enrol/add subjects yourself</td>
+			<td class="datatext">04 Aug 2023</td>
+		<tr class="oddrow">
+			<td class="datatext">Last day to enrol/add subjects with Head of Students approval</td>
+			<td class="datatext">11 Aug 2023</td>
+		<tr class="evenrow">
+			<td class="datatext">
+			<b>CENSUS DATE</b>
+			<li>Fees due</li>
+			<li>Last day to withdraw from subject/s without paying for them</li>
+			<li>HECS/FEE HE>LP debt reporting date</li>
+			<li>Last day to change HECS/FEE HELP billing option</li>
+			<br>
+			<a href="https://uowedu.service-now.com/kb?id=kb_article_view&sysparm_article=KB0012659" target="_blank">Learn more about Census date ></a>
+			<br><br>
+			</td>
+			<td class="datatext">31 Aug 2023</td>
+		<tr class="oddrow">
+			<td class="datatext">Student Services and Amenities Fess Due</td>
+			<td class="datatext">01 Sep 2023</td>
+	</table>
+	
+	
+	
+	
+	<hr>
+	<br><br><br>
+	
+	
+	
+	
+	<!-- Task 3 -->
+	<table class = "task2" style="width:100%">
+		<tr id="header2">
+			<th class="task2" style="width:35%">Name</th>
+			<th class="task2" style="width:65%">Web Attacks</th>
+		<tr>
+			<td class="datatext2">
+				<br>
+				Cross-Site scripting
+				<br>
+				<img height="200px" src="attack1.jpg" alt="Image of Web attack 1">
+				<br>
+				Source: https://www.cloudflare.com/learning/security/threats/cross-site-scripting/
+				<br><br>
+			</td>
+			<td class="datatext2"><br>
+				According to tripwire, cross-site scripting or an XSS attack tricks a browser into delivering malicious client-side scripts to the victim's browser. Thia malicious script will automatically execute once recieved. These scripts can exfiltrate data, install malware or redirect the user to a spoofed site.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				SQL Injection Attacks
+				<br>
+				<img height="200px" src="attack2.jpg" alt="Image of Web attack 2">
+				<br>
+				Source: https://portswigger.net/web-security/sql-injection
+				<br><br>
+			</td>
+			<td class="datatext2"><br>
+				An SQL injection attack is one of the most common web attacks in recent years. This attack aims to compromise cookies, web forms or HTTP posts in a server to manipulate data out of it. These attacks exploit input fields such as text boxes to inject malicious scripts to trick servers into providing unauthorised information.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				Broken Authentification
+				<br>
+				<img height="200px" src="attack3.jpg" alt="Image of Web attack 3">
+				<br>
+				Source: https://my.f5.com/manage/s/article/K000135769
+				<br><br>
+			</td>
+			<td class="datatext2">
+				Approximately 67% of data breaches are from compromised credentials. These credentials can be compromised through brute force, credential stuffing, dictionary attacks or many other ways. Broken authentification is simply any illegimate login.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+			<br>
+				Drive-By Download
+				<br>
+				<img height="200px" src="attack4.jpg" alt="Image of Web attack 4">
+				<br>
+				Source: https://us.norton.com/blog/malware/what-are-drive-by-downloads
+				<br><br>
+			</td>
+			<td class="datatext2">
+				A drive-by download occurs when a user visits a website and said website automatically downloads a malicious agent. Simply visiting a page, clicking a pop up or opening an email can cause one of these attacks.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+			<br>
+				Password-Based Attacks
+				<br>
+				<img height="200px" src="attack5.jpg" alt="Image of Web attack 5">
+				<br>
+				Source: https://us.norton.com/blog/emerging-threats/password-attack
+				<br><br>
+			</td>
+			<td class="datatext2">
+				Similar to broken authentification exploits, but slightly different. This is where credential dumping such as stealing your RAM, brute forcing again, credential stuffing again or 'Pass the Has' techniques are used to sign in to accounts illegitimately.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				Fuzzing
+				<br>
+				<img height="200px" src="attack6.jpg" alt="Image of Web attack 6">
+				<br>
+				Source: https://www.synopsys.com/glossary/what-is-fuzz-testing.html
+				<br><br>
+			</td>
+			<td class="datatext2">
+				To fuzz test is to pump large amounts of random data or fuzz into an application to get it to crash. Then the crash is then analysed to identify weak spots. This allows hackers to find loopholes in security that can be further exploited.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				Using Components with Known Vulnerabilities
+				<br>
+				<img height="200px" src="attack7.jpg" alt="Image of Web attack 7">
+				<br>
+				Source: https://cheapsslsecurity.com/blog/4-dangers-of-using-components-with-known-vulnerabilities/
+				<br><br>
+			</td>
+			<td class="datatext2">
+				Software and hardware are both made of a lot of moving parts. A simple exploit used is to identify risks and flaws in parts of open source software or supply chains that you can manipulate to steal data or find vulnerabilities.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				DDoS
+				<br>
+				<img height="200px" src="attack8.jpg" alt="Image of Web attack 8">
+				<br>
+				Source: https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/
+				<br><br>
+			</td>
+			<td class="datatext2">
+				DDoS or Distributed Denial-of-Service attacks essentially use a botnet to create vast numbers of requests to a target server in order to make it unavailable for other users. These attacks are often used in conjunction with others to distract security whilst you exploit a vulnerability.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				MiTM
+				<br>
+				<img height="200px" src="attack9.jpg" alt="Image of Web attack 9">
+				<br>
+				Source: https://threatcop.com/blog/man-in-the-middle-attack/
+				<br><br>
+			</td>
+			<td class="datatext2">
+				MiTM or Man in the Middle attacks are mostly used for unencrypted sites. Hackers can intercept the data as it is being trasnferred between parties and if it isn't encrypted the hacker can simply read personal information easily.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+		<tr>
+			<td class="datatext2">
+				<br>
+				Directory Traversal
+				<br>
+				<img height="200px" src="attack10.jpg" alt="Image of Web attack 10">
+				<br>
+				Source: https://www.fastly.com/blog/back-to-basics-directory-traversal/
+				<br><br>
+			</td>
+			<td class="datatext2">
+				Directory/Path Traversal attacks occur when a hacker attempts to access a root folder unauthorised. Eventually by reaching enough folders prior in hierarchy hackers can often access the site, config files, databases or etc.
+				<br>
+				<a href="https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself" target="_blank">https://www.tripwire.com/state-of-security/most-common-website-security-attacks-and-how-to-protect-yourself</a>
+			</td>
+	</table>
+		
+		
+		
+		
+	<hr>
+	<br><br><br>
+		
+		
+		
+	<!-- Task 4 -->	
+	<button onClick="cat();">Cat</button>
+	<button onClick="dog();">Dog</button>
+	<button onClick="frog();">Frog</button>
+	
+	<br><br>
+	<input type=”text”  id="display" size=”30”/>
+	
+	<br><br>
+	<span id="display2"></span>
+	
+	<br><br>
+	<img id="display3"/>
+	<br>
+	<span id="display4"></span>
+		
+		
+		
+		
+	<hr>
+	<br><br><br>
+		
+		
+		
+	<!-- Task 5 -->	
+	<a href="https://docs.google.com/document/d/1XwHQKgcBmkOcT4xTijokCA80eNhJ0REi9DBOU07ZO7E/edit?usp=sharing" target="_blank"><h1>Report</h1></a>
+		
+		
+</body>
+
+</html>
